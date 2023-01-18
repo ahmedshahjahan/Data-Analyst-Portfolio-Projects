@@ -1,0 +1,8 @@
+# Exploring dataset by date
+SELECT * FROM covid_deaths
+ORDER BY date ASC;
+
+# Exploring the dataset
+SELECT location, date, total_cases, new_cases, total_deaths, population
+FROM public.covid_deaths
+ORDER BY location, date;
